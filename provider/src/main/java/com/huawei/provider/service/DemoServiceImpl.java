@@ -12,9 +12,7 @@ import org.springframework.stereotype.Component;
 @Service(
         version = "${demo.service.version}",
         application = "${dubbo.application.id}",
-        protocol = "${dubbo.protocol.id}",
-        registry = "${dubbo.registry.id}"
-)
+        registry = "${dubbo.registry.id}")
 @Component
 public class DemoServiceImpl implements DemoService {
     @Override

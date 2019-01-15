@@ -13,6 +13,7 @@ public class ProviderApplication {
         new SpringApplicationBuilder(ProviderApplication.class)
                 .web(WebApplicationType.NONE) // 非 Web 应用
                 .run(args);
+
     }
 
 }
